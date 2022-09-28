@@ -1,0 +1,1021 @@
+{
+
+version
+	{
+	number 12
+	build 619
+	}
+mtlCollection
+	{
+	material irisLeft
+		{
+		KdColor 1 1 1 1 
+		KaColor 0 0 0 0 
+		KsColor 0.0588235 0.0588235 0.0588235 1 
+		TextureColor 1 1 1 1 
+		NsExponent 2.5 
+		tMin 0 
+		tMax 0 
+		tExpo 0.6 
+		bumpStrength 1 
+		ksIgnoreTexture 0 
+		reflectThruLights 1 
+		reflectThruKd 0 
+		textureMap ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPEyesGrayBrown.jpg"
+ 				0 0 
+		bumpMap ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPEyesBUMP.jpg"
+ 				0 0 
+		reflectionMap NO_MAP
+		transparencyMap NO_MAP
+		ReflectionColor 1 1 1 1 
+		reflectionStrength 0 
+		shaderTree
+			{
+			node "PhysicalSurface" "PhysicalSurface"
+				{
+				name "PhysicalSurface"
+				pos 20 18
+				advancedInputsCollapsed 0
+				nodeInput "Color"
+					{
+					name "Color"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node "Image_Map"
+					file NO_MAP
+					}
+				nodeInput "Transparency"
+					{
+					name "Transparency"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "TransparencyMode"
+					{
+					name "TransparencyMode"
+					value 1 0 0
+					enumValue 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "ColoredTransparency"
+					{
+					name "ColoredTransparency"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Roughness"
+					{
+					name "Roughness"
+					value 0.4 0.001 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Specular"
+					{
+					name "Specular"
+					value 0.0588235 0.0588235 0.0588235
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Metallic"
+					{
+					name "Metallic"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Emission"
+					{
+					name "Emission"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "EmissionStrength"
+					{
+					name "EmissionStrength"
+					value 0 0 100
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Bump"
+					{
+					name "Bump"
+					value 0.006 -10 10
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node "Image_Map_2"
+					file NO_MAP
+					}
+				nodeInput "NormalMap"
+					{
+					name "NormalMap"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Displacement"
+					{
+					name "Displacement"
+					value 0.12 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Volume"
+					{
+					name "Volume"
+					value 0.3 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "ScatterDistR"
+					{
+					name "ScatterDistR_mm"
+					value 0 0.001 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "ScatterDistG"
+					{
+					name "ScatterDistG_mm"
+					value 0 0.001 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "ScatterDistB"
+					{
+					name "ScatterDistB_mm"
+					value 0 0.001 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Scatter_Group"
+					{
+					name "Scatter_Group"
+					value 2 0 32768
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				}
+			node "image_map" "Image_Map"
+				{
+				name "Image_Map"
+				pos 470 45
+				advancedInputsCollapsed 0
+				nodeInput "Image_Source"
+					{
+					name "Image_Source"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPEyesGrayBrown.jpg"
+					}
+				nodeInput "Auto_Fit"
+					{
+					name "Auto_Fit"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "U_Scale"
+					{
+					name "U_Scale"
+					value 1 -1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "V_Scale"
+					{
+					name "V_Scale"
+					value 1 -1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "U_Offset"
+					{
+					name "U_Offset"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "V_Offset"
+					{
+					name "V_Offset"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Texture_Coords"
+					{
+					name "Texture_Coords"
+					value 1 0 0
+					enumValue 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Image_Mapped"
+					{
+					name "Image_Mapped"
+					value 4 0 0
+					enumValue 4
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Background"
+					{
+					name "Background"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Global_Coordinates"
+					{
+					name "Global_Coordinates"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Mirror_U"
+					{
+					name "Mirror_U"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Mirror_V"
+					{
+					name "Mirror_V"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Texture_Strength"
+					{
+					name "Texture_Strength"
+					value 1 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Filtering"
+					{
+					name "Filtering"
+					value 4 0 0
+					enumValue 4
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				gamma scene
+				}
+			node "image_map" "Image_Map_2"
+				{
+				name "Image_Map_2"
+				pos 20 379
+				advancedInputsCollapsed 0
+				nodeInput "Image_Source"
+					{
+					name "Image_Source"
+					value 2 2 2
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPEyesBUMP.jpg"
+					}
+				nodeInput "Auto_Fit"
+					{
+					name "Auto_Fit"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "U_Scale"
+					{
+					name "U_Scale"
+					value 1 -1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "V_Scale"
+					{
+					name "V_Scale"
+					value 1 -1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "U_Offset"
+					{
+					name "U_Offset"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "V_Offset"
+					{
+					name "V_Offset"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Texture_Coords"
+					{
+					name "Texture_Coords"
+					value 1 0 0
+					enumValue 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Image_Mapped"
+					{
+					name "Image_Mapped"
+					value 4 0 0
+					enumValue 4
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Background"
+					{
+					name "Background"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Global_Coordinates"
+					{
+					name "Global_Coordinates"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Mirror_U"
+					{
+					name "Mirror_U"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Mirror_V"
+					{
+					name "Mirror_V"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Texture_Strength"
+					{
+					name "Texture_Strength"
+					value 1 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Filtering"
+					{
+					name "Filtering"
+					value 4 0 0
+					enumValue 4
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				gamma scene
+				}
+			fireflyRoot "PhysicalSurface" 
+			superflyRoot "PhysicalSurface" 
+			}
+		}
+	material irisRight
+		{
+		KdColor 1 1 1 1 
+		KaColor 0 0 0 0 
+		KsColor 0.0588235 0.0588235 0.0588235 1 
+		TextureColor 1 1 1 1 
+		NsExponent 2.5 
+		tMin 0 
+		tMax 0 
+		tExpo 0.6 
+		bumpStrength 1 
+		ksIgnoreTexture 0 
+		reflectThruLights 1 
+		reflectThruKd 0 
+		textureMap ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPEyesGrayBrown.jpg"
+ 				0 0 
+		bumpMap ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPEyesBUMP.jpg"
+ 				0 0 
+		reflectionMap NO_MAP
+		transparencyMap NO_MAP
+		ReflectionColor 1 1 1 1 
+		reflectionStrength 0 
+		shaderTree
+			{
+			node "PhysicalSurface" "PhysicalSurface"
+				{
+				name "PhysicalSurface"
+				pos 30 28
+				advancedInputsCollapsed 0
+				nodeInput "Color"
+					{
+					name "Color"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node "Image_Map"
+					file NO_MAP
+					}
+				nodeInput "Transparency"
+					{
+					name "Transparency"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "TransparencyMode"
+					{
+					name "TransparencyMode"
+					value 1 0 0
+					enumValue 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "ColoredTransparency"
+					{
+					name "ColoredTransparency"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Roughness"
+					{
+					name "Roughness"
+					value 0.4 0.001 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Specular"
+					{
+					name "Specular"
+					value 0.0588235 0.0588235 0.0588235
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Metallic"
+					{
+					name "Metallic"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Emission"
+					{
+					name "Emission"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "EmissionStrength"
+					{
+					name "EmissionStrength"
+					value 0 0 100
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Bump"
+					{
+					name "Bump"
+					value 0.006 -10 10
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node "Image_Map_2"
+					file NO_MAP
+					}
+				nodeInput "NormalMap"
+					{
+					name "NormalMap"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Displacement"
+					{
+					name "Displacement"
+					value 0.12 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Volume"
+					{
+					name "Volume"
+					value 0.3 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "ScatterDistR"
+					{
+					name "ScatterDistR_mm"
+					value 0 0.001 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "ScatterDistG"
+					{
+					name "ScatterDistG_mm"
+					value 0 0.001 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "ScatterDistB"
+					{
+					name "ScatterDistB_mm"
+					value 0 0.001 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Scatter_Group"
+					{
+					name "Scatter_Group"
+					value 2 0 32768
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				}
+			node "image_map" "Image_Map"
+				{
+				name "Image_Map"
+				pos 480 55
+				advancedInputsCollapsed 0
+				nodeInput "Image_Source"
+					{
+					name "Image_Source"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPEyesGrayBrown.jpg"
+					}
+				nodeInput "Auto_Fit"
+					{
+					name "Auto_Fit"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "U_Scale"
+					{
+					name "U_Scale"
+					value 1 -1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "V_Scale"
+					{
+					name "V_Scale"
+					value 1 -1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "U_Offset"
+					{
+					name "U_Offset"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "V_Offset"
+					{
+					name "V_Offset"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Texture_Coords"
+					{
+					name "Texture_Coords"
+					value 1 0 0
+					enumValue 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Image_Mapped"
+					{
+					name "Image_Mapped"
+					value 4 0 0
+					enumValue 4
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Background"
+					{
+					name "Background"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Global_Coordinates"
+					{
+					name "Global_Coordinates"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Mirror_U"
+					{
+					name "Mirror_U"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Mirror_V"
+					{
+					name "Mirror_V"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Texture_Strength"
+					{
+					name "Texture_Strength"
+					value 1 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Filtering"
+					{
+					name "Filtering"
+					value 4 0 0
+					enumValue 4
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				gamma scene
+				}
+			node "image_map" "Image_Map_2"
+				{
+				name "Image_Map_2"
+				pos 30 389
+				advancedInputsCollapsed 0
+				nodeInput "Image_Source"
+					{
+					name "Image_Source"
+					value 2 2 2
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPEyesBUMP.jpg"
+					}
+				nodeInput "Auto_Fit"
+					{
+					name "Auto_Fit"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "U_Scale"
+					{
+					name "U_Scale"
+					value 1 -1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "V_Scale"
+					{
+					name "V_Scale"
+					value 1 -1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "U_Offset"
+					{
+					name "U_Offset"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "V_Offset"
+					{
+					name "V_Offset"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Texture_Coords"
+					{
+					name "Texture_Coords"
+					value 1 0 0
+					enumValue 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Image_Mapped"
+					{
+					name "Image_Mapped"
+					value 4 0 0
+					enumValue 4
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Background"
+					{
+					name "Background"
+					value 1 1 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Global_Coordinates"
+					{
+					name "Global_Coordinates"
+					value 0 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Mirror_U"
+					{
+					name "Mirror_U"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Mirror_V"
+					{
+					name "Mirror_V"
+					value 0 0 0
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Texture_Strength"
+					{
+					name "Texture_Strength"
+					value 1 0 1
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				nodeInput "Filtering"
+					{
+					name "Filtering"
+					value 4 0 0
+					enumValue 4
+					parmR NO_PARM
+					parmG NO_PARM
+					parmB NO_PARM
+					node NO_NODE
+					file NO_MAP
+					}
+				gamma scene
+				}
+			fireflyRoot "PhysicalSurface" 
+			superflyRoot "PhysicalSurface" 
+			}
+		}
+	}
+}

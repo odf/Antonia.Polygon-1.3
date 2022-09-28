@@ -1,0 +1,103 @@
+=== ABOUT ANTONIA POLYGON ===
+
+Antonia is an original Poser figure by Olaf Delgado-Friedrichs
+(Antonia.Polygon@gmail.com or odf at renderosity.com) with
+contributions from phantom3D, MikeJ and others.
+
+Antonia was created using Wings3D, Blender, Poser and DAZ Studio, as
+well as a number of home-made software tools. As of October 2008, the
+development of the figure has been documented and discussed in the
+Poser forum at Renderosity (http://www.renderosity.com), and the
+project owes a lot to the continuing feedback and support of the
+Renderosity community.
+
+Please note that Antonia is not a commercial figure and has been
+developed over several years on the various contributors' spare time.
+Because of this, you may not find everything you'd expect from a
+full-fledged Poser figure.
+
+While Antonia itself is provided free of charge with very liberal
+licensing, this is not necessarily true for related content. In
+particular, the creation of commercial packages based on or related
+to Antonia is explicitly encouraged. Please also be aware that the
+texture maps included in this version are provided under a separate
+license and can not be redistributed as part of commercial products or
+freebies; see ToniPolygonReadMe.txt for details.
+
+Obviously, if you use Antonia for any published or commercial work, I
+would love to hear about it. If you redistribute Antonia or any
+derivative work, you must, according to the license (see below),
+acknowledge me as the original creator of the figure, but you do not
+have to ask for my permission.
+
+For further information and upcoming additional content, visit
+http://sites.google.com/site/antoniapolygon.
+
+
+=== ABOUT THIS RELEASE (VERSION 1.3.0) ===
+
+This is the third stable release of Antonia Polygon with some small
+but significant modifications from the previous version 1.2.
+Specifically, the eyes have been remodeled, the breast and hip
+geometries modified, and the separate brows and toe caps removed.
+The jaw, tongue and thigh joints have been modified and weight-mapped,
+and the settings for the chest joint have also been changed.
+
+Antonia 1.3 has some new and some improved expression morphs and new
+hybrid FireFly/SuperFly materials based on the Toni Polygon texture
+by SaintFox and Digital-Lion (see ToniPolygonReadMe.txt).
+
+Most of the content available for previous versions of Antonia will
+not work without upgrading. Please be on the lookout for items made
+specifically for Antonia 1.3.
+
+The development of the figure is ongoing, and Antonia 1.3 is meant as
+a stepping stone for things to come. Future versions may well be
+incompatible with the present one. If you are looking for something
+more stable, Antonia may not be the right choice for you.
+
+
+=== LICENSING ===
+
+This work is licensed under the Creative Commons Attribution 3.0
+Unported License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by/3.0/ or send a letter to
+Creative Commons, 171 Second Street, Suite 300, San Francisco,
+California, 94105, USA.
+
+
+=== WHAT THE LICENSE MEANS ===
+
+(DISCLAIMER: The following is not a license and has no legal
+implications.  It is simply a human-readable expression of the
+key-terms of the license.  It is based on the license deed as provided
+by Creative Commons under the URL
+http://creativecommons.org/licenses/by/3.0, with a modification in the
+last sentence.)
+
+You are free:
+
+    * to Share — to copy, distribute and transmit the work
+    * to Remix — to adapt the work
+
+Under the following conditions:
+
+    * Attribution — You must attribute the work in the manner
+      specified by the author or licensor (but not in any way that
+      suggests that they endorse you or your use of the work).
+
+With the understanding that:
+
+    * Waiver — Any of the above conditions can be waived if you get
+      permission from the copyright holder.
+    * Other Rights — In no way are any of the following rights
+      affected by the license:
+          o Your fair dealing or fair use rights;
+          o The author's moral rights;
+          o Rights other persons may have either in the work itself or
+            in how the work is used, such as publicity or privacy
+            rights.
+    * Notice — For any reuse or distribution, you must make clear to
+      others the license terms of this work. The best way to do this
+      is by including a copy of this file or a link to Antonia's
+      homepage at http://sites.google.com/site/antoniapolygon/.
