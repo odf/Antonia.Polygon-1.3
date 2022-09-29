@@ -9,29 +9,29 @@ well as a number of home-made software tools. As of October 2008, the
 development of the figure has been documented and discussed in the
 Poser forum at Renderosity (http://www.renderosity.com), and the
 project owes a lot to the continuing feedback and support of the
-Renderosity community.
+Renderosity community. Still, Antonia is a pure hobby project and made
+entirely for fun of it, so do not expect a polished commerical product.
 
-Please note that Antonia is not a commercial figure and has been
-developed over several years on the various contributors' spare time.
-Because of this, you may not find everything you'd expect from a
-full-fledged Poser figure.
+The figure is provided free of charge and can be redistributed freely
+as part of both commercial and non-commercial projects, see the license
+statement below. Please be aware that this is not true for the enclosed
+Toni Polygon texture by SaintFox and Digitial-Lion, which may *not* be
+redistributed as part of other products or freebies.
 
-While Antonia itself is provided free of charge with very liberal
-licensing, this is not necessarily true for related content. In
-particular, the creation of commercial packages based on or related
-to Antonia is explicitly encouraged. Please also be aware that the
-texture maps included in this version are provided under a separate
-license and can not be redistributed as part of commercial products or
-freebies; see ToniPolygonReadMe.txt for details.
+For further information and future additions, visit
+http://sites.google.com/site/antoniapolygon or
+https://github.com/odf/Antonia.Polygon-1.3.
 
-Obviously, if you use Antonia for any published or commercial work, I
-would love to hear about it. If you redistribute Antonia or any
-derivative work, you must, according to the license (see below),
-acknowledge me as the original creator of the figure, but you do not
-have to ask for my permission.
 
-For further information and upcoming additional content, visit
-http://sites.google.com/site/antoniapolygon.
+=== ABOUT THE TONI POLYGON TEXTURE ===
+
+Toni Polygon is a photo-base texture made for Antonia by SaintFox and
+Digital-Lion. Antonia 1.3 comes with default materials that use this
+texture, so for the materials to work, you need to install it from the
+enclosed zip-file under the "Extras" folder. Toni Polygon is not part
+of the Antonia release and does not fall under the license summarized
+below. For more information about Toni Polygon, see its separate readme
+file.
 
 
 === ABOUT THIS RELEASE (VERSION 1.3.0) ===
