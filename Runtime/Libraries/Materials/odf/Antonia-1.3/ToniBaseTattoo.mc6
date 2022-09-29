@@ -13,56 +13,56 @@ actor $CURRENT
 			{
 			groupNode ShaderNode
 				{
-				parmNode skin_BODY_PhysicalSurface_4
-				parmNode skin_BODY_PhysicalSurface_5_R:1
-				parmNode skin_BODY_PhysicalSurface_5_G:1
-				parmNode skin_BODY_PhysicalSurface_5_B:1
-				parmNode skin_BODY_PhysicalSurface_9
-				parmNode skin_BODY_Image_Map_2_12
-				parmNode skin_BODY_hsv2_1:1
-				parmNode skin_BODY_hsv2_2:1
-				parmNode skin_BODY_hsv2_3
-				parmNode skin_BODY_Math_Functions_1
-				parmNode skin_LEGS_PhysicalSurface_4
-				parmNode skin_LEGS_PhysicalSurface_5_R:1
-				parmNode skin_LEGS_PhysicalSurface_5_G:1
-				parmNode skin_LEGS_PhysicalSurface_5_B:1
-				parmNode skin_LEGS_PhysicalSurface_9
-				parmNode skin_LEGS_Image_Map_2_12
-				parmNode skin_LEGS_hsv2_1:1
-				parmNode skin_LEGS_hsv2_2:1
-				parmNode skin_LEGS_hsv2_3
-				parmNode skin_LEGS_Math_Functions_1
-				parmNode skin_HEAD_PhysicalSurface_4
-				parmNode skin_HEAD_PhysicalSurface_5_R:1
-				parmNode skin_HEAD_PhysicalSurface_5_G:1
-				parmNode skin_HEAD_PhysicalSurface_5_B:1
-				parmNode skin_HEAD_PhysicalSurface_9
-				parmNode skin_HEAD_Image_Map_2_12
-				parmNode skin_HEAD_hsv2_1:1
-				parmNode skin_HEAD_hsv2_2:1
-				parmNode skin_HEAD_hsv2_3
-				parmNode skin_HEAD_Math_Functions_1
-				parmNode lips_PhysicalSurface_4
-				parmNode lips_PhysicalSurface_5_R:1
-				parmNode lips_PhysicalSurface_5_G:1
-				parmNode lips_PhysicalSurface_5_B:1
-				parmNode lips_PhysicalSurface_9
-				parmNode lips_Image_Map_2_12
-				parmNode lips_hsv2_1:1
-				parmNode lips_hsv2_2:1
-				parmNode lips_hsv2_3
-				parmNode lips_Math_Functions_1
-				parmNode skin_ARMS_PhysicalSurface_4
-				parmNode skin_ARMS_PhysicalSurface_5_R:1
-				parmNode skin_ARMS_PhysicalSurface_5_G:1
-				parmNode skin_ARMS_PhysicalSurface_5_B:1
-				parmNode skin_ARMS_PhysicalSurface_9
-				parmNode skin_ARMS_Image_Map_2_12
-				parmNode skin_ARMS_hsv2_1:1
-				parmNode skin_ARMS_hsv2_2:1
-				parmNode skin_ARMS_hsv2_3
-				parmNode skin_ARMS_Math_Functions_1
+				parmNode skin_BODY_PhysicalSurface_4:1
+				parmNode skin_BODY_PhysicalSurface_5_R
+				parmNode skin_BODY_PhysicalSurface_5_G
+				parmNode skin_BODY_PhysicalSurface_5_B
+				parmNode skin_BODY_PhysicalSurface_9:1
+				parmNode skin_BODY_Image_Map_2_12:1
+				parmNode skin_BODY_hsv2_1
+				parmNode skin_BODY_hsv2_2
+				parmNode skin_BODY_hsv2_3:1
+				parmNode skin_BODY_Math_Functions_1:1
+				parmNode skin_LEGS_PhysicalSurface_4:1
+				parmNode skin_LEGS_PhysicalSurface_5_R
+				parmNode skin_LEGS_PhysicalSurface_5_G
+				parmNode skin_LEGS_PhysicalSurface_5_B
+				parmNode skin_LEGS_PhysicalSurface_9:1
+				parmNode skin_LEGS_Image_Map_2_12:1
+				parmNode skin_LEGS_hsv2_1
+				parmNode skin_LEGS_hsv2_2
+				parmNode skin_LEGS_hsv2_3:1
+				parmNode skin_LEGS_Math_Functions_1:1
+				parmNode skin_HEAD_PhysicalSurface_4:1
+				parmNode skin_HEAD_PhysicalSurface_5_R
+				parmNode skin_HEAD_PhysicalSurface_5_G
+				parmNode skin_HEAD_PhysicalSurface_5_B
+				parmNode skin_HEAD_PhysicalSurface_9:1
+				parmNode skin_HEAD_Image_Map_2_12:1
+				parmNode skin_HEAD_hsv2_1
+				parmNode skin_HEAD_hsv2_2
+				parmNode skin_HEAD_hsv2_3:1
+				parmNode skin_HEAD_Math_Functions_1:1
+				parmNode lips_PhysicalSurface_4:1
+				parmNode lips_PhysicalSurface_5_R
+				parmNode lips_PhysicalSurface_5_G
+				parmNode lips_PhysicalSurface_5_B
+				parmNode lips_PhysicalSurface_9:1
+				parmNode lips_Image_Map_2_12:1
+				parmNode lips_hsv2_1
+				parmNode lips_hsv2_2
+				parmNode lips_hsv2_3:1
+				parmNode lips_Math_Functions_1:1
+				parmNode skin_ARMS_PhysicalSurface_4:1
+				parmNode skin_ARMS_PhysicalSurface_5_R
+				parmNode skin_ARMS_PhysicalSurface_5_G
+				parmNode skin_ARMS_PhysicalSurface_5_B
+				parmNode skin_ARMS_PhysicalSurface_9:1
+				parmNode skin_ARMS_Image_Map_2_12:1
+				parmNode skin_ARMS_hsv2_1
+				parmNode skin_ARMS_hsv2_2
+				parmNode skin_ARMS_hsv2_3:1
+				parmNode skin_ARMS_Math_Functions_1:1
 				}
 			groupNode Skin
 				{
@@ -72,9 +72,9 @@ actor $CURRENT
 				parmNode SkinWaxy
 				}
 			}
-		shaderNodeParm skin_BODY_PhysicalSurface_4
+		shaderNodeParm skin_BODY_PhysicalSurface_4:1
 			{
-			name skin_BODY_PhysicalSurface_4
+			name skin_BODY_PhysicalSurface_4:1
 			initValue 0.4
 			hidden 0
 			enabled 1
@@ -103,9 +103,9 @@ actor $CURRENT
 					valueKey 1 -0.1
 				endValueKeys
 			}
-		shaderNodeParm skin_BODY_PhysicalSurface_5_R:1
+		shaderNodeParm skin_BODY_PhysicalSurface_5_R
 			{
-			name skin_BODY_PhysicalSurface_5_R:1
+			name skin_BODY_PhysicalSurface_5_R
 			initValue 0.74902
 			hidden 0
 			enabled 1
@@ -126,7 +126,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -134,9 +134,9 @@ actor $CURRENT
 					valueKey 1 0.25098
 				endValueKeys
 			}
-		shaderNodeParm skin_BODY_PhysicalSurface_5_G:1
+		shaderNodeParm skin_BODY_PhysicalSurface_5_G
 			{
-			name skin_BODY_PhysicalSurface_5_G:1
+			name skin_BODY_PhysicalSurface_5_G
 			initValue 0.74902
 			hidden 0
 			enabled 1
@@ -157,7 +157,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -165,9 +165,9 @@ actor $CURRENT
 					valueKey 1 0.25098
 				endValueKeys
 			}
-		shaderNodeParm skin_BODY_PhysicalSurface_5_B:1
+		shaderNodeParm skin_BODY_PhysicalSurface_5_B
 			{
-			name skin_BODY_PhysicalSurface_5_B:1
+			name skin_BODY_PhysicalSurface_5_B
 			initValue 0.74902
 			hidden 0
 			enabled 1
@@ -188,7 +188,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -196,9 +196,9 @@ actor $CURRENT
 					valueKey 1 0.25098
 				endValueKeys
 			}
-		shaderNodeParm skin_BODY_PhysicalSurface_9
+		shaderNodeParm skin_BODY_PhysicalSurface_9:1
 			{
-			name skin_BODY_PhysicalSurface_9
+			name skin_BODY_PhysicalSurface_9:1
 			initValue 0.06
 			hidden 1
 			enabled 0
@@ -218,9 +218,9 @@ actor $CURRENT
 				}
 			interpStyleLocked 0
 			}
-		shaderNodeParm skin_BODY_Image_Map_2_12
+		shaderNodeParm skin_BODY_Image_Map_2_12:1
 			{
-			name skin_BODY_Image_Map_2_12
+			name skin_BODY_Image_Map_2_12:1
 			initValue 1
 			hidden 0
 			enabled 1
@@ -249,9 +249,9 @@ actor $CURRENT
 					valueKey 1 0.5
 				endValueKeys
 			}
-		shaderNodeParm skin_BODY_hsv2_1:1
+		shaderNodeParm skin_BODY_hsv2_1
 			{
-			name skin_BODY_hsv2_1:1
+			name skin_BODY_hsv2_1
 			initValue 0.99
 			hidden 0
 			enabled 1
@@ -272,7 +272,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -280,9 +280,9 @@ actor $CURRENT
 					valueKey 1 0.02
 				endValueKeys
 			}
-		shaderNodeParm skin_BODY_hsv2_2:1
+		shaderNodeParm skin_BODY_hsv2_2
 			{
-			name skin_BODY_hsv2_2:1
+			name skin_BODY_hsv2_2
 			initValue 0.8
 			hidden 0
 			enabled 1
@@ -303,7 +303,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -311,9 +311,9 @@ actor $CURRENT
 					valueKey 1 0.1
 				endValueKeys
 			}
-		shaderNodeParm skin_BODY_hsv2_3
+		shaderNodeParm skin_BODY_hsv2_3:1
 			{
-			name skin_BODY_hsv2_3
+			name skin_BODY_hsv2_3:1
 			initValue 1
 			hidden 0
 			enabled 1
@@ -342,9 +342,9 @@ actor $CURRENT
 					valueKey 1 1
 				endValueKeys
 			}
-		shaderNodeParm skin_BODY_Math_Functions_1
+		shaderNodeParm skin_BODY_Math_Functions_1:1
 			{
-			name skin_BODY_Math_Functions_1
+			name skin_BODY_Math_Functions_1:1
 			initValue 1
 			hidden 0
 			enabled 1
@@ -373,9 +373,9 @@ actor $CURRENT
 					valueKey 1 1
 				endValueKeys
 			}
-		shaderNodeParm skin_LEGS_PhysicalSurface_4
+		shaderNodeParm skin_LEGS_PhysicalSurface_4:1
 			{
-			name skin_LEGS_PhysicalSurface_4
+			name skin_LEGS_PhysicalSurface_4:1
 			initValue 0.4
 			hidden 0
 			enabled 1
@@ -404,9 +404,9 @@ actor $CURRENT
 					valueKey 1 -0.1
 				endValueKeys
 			}
-		shaderNodeParm skin_LEGS_PhysicalSurface_5_R:1
+		shaderNodeParm skin_LEGS_PhysicalSurface_5_R
 			{
-			name skin_LEGS_PhysicalSurface_5_R:1
+			name skin_LEGS_PhysicalSurface_5_R
 			initValue 0.74902
 			hidden 0
 			enabled 1
@@ -427,7 +427,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -435,9 +435,9 @@ actor $CURRENT
 					valueKey 1 0.25098
 				endValueKeys
 			}
-		shaderNodeParm skin_LEGS_PhysicalSurface_5_G:1
+		shaderNodeParm skin_LEGS_PhysicalSurface_5_G
 			{
-			name skin_LEGS_PhysicalSurface_5_G:1
+			name skin_LEGS_PhysicalSurface_5_G
 			initValue 0.74902
 			hidden 0
 			enabled 1
@@ -458,7 +458,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -466,9 +466,9 @@ actor $CURRENT
 					valueKey 1 0.25098
 				endValueKeys
 			}
-		shaderNodeParm skin_LEGS_PhysicalSurface_5_B:1
+		shaderNodeParm skin_LEGS_PhysicalSurface_5_B
 			{
-			name skin_LEGS_PhysicalSurface_5_B:1
+			name skin_LEGS_PhysicalSurface_5_B
 			initValue 0.74902
 			hidden 0
 			enabled 1
@@ -489,7 +489,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -497,9 +497,9 @@ actor $CURRENT
 					valueKey 1 0.25098
 				endValueKeys
 			}
-		shaderNodeParm skin_LEGS_PhysicalSurface_9
+		shaderNodeParm skin_LEGS_PhysicalSurface_9:1
 			{
-			name skin_LEGS_PhysicalSurface_9
+			name skin_LEGS_PhysicalSurface_9:1
 			initValue 0.06
 			hidden 1
 			enabled 0
@@ -519,9 +519,9 @@ actor $CURRENT
 				}
 			interpStyleLocked 0
 			}
-		shaderNodeParm skin_LEGS_Image_Map_2_12
+		shaderNodeParm skin_LEGS_Image_Map_2_12:1
 			{
-			name skin_LEGS_Image_Map_2_12
+			name skin_LEGS_Image_Map_2_12:1
 			initValue 1
 			hidden 0
 			enabled 1
@@ -550,9 +550,9 @@ actor $CURRENT
 					valueKey 1 0.5
 				endValueKeys
 			}
-		shaderNodeParm skin_LEGS_hsv2_1:1
+		shaderNodeParm skin_LEGS_hsv2_1
 			{
-			name skin_LEGS_hsv2_1:1
+			name skin_LEGS_hsv2_1
 			initValue 0.99
 			hidden 0
 			enabled 1
@@ -573,7 +573,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -581,9 +581,9 @@ actor $CURRENT
 					valueKey 1 0.00999999
 				endValueKeys
 			}
-		shaderNodeParm skin_LEGS_hsv2_2:1
+		shaderNodeParm skin_LEGS_hsv2_2
 			{
-			name skin_LEGS_hsv2_2:1
+			name skin_LEGS_hsv2_2
 			initValue 0.8
 			hidden 0
 			enabled 1
@@ -604,7 +604,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -612,9 +612,9 @@ actor $CURRENT
 					valueKey 1 0.1
 				endValueKeys
 			}
-		shaderNodeParm skin_LEGS_hsv2_3
+		shaderNodeParm skin_LEGS_hsv2_3:1
 			{
-			name skin_LEGS_hsv2_3
+			name skin_LEGS_hsv2_3:1
 			initValue 1
 			hidden 0
 			enabled 1
@@ -643,9 +643,9 @@ actor $CURRENT
 					valueKey 1 1
 				endValueKeys
 			}
-		shaderNodeParm skin_LEGS_Math_Functions_1
+		shaderNodeParm skin_LEGS_Math_Functions_1:1
 			{
-			name skin_LEGS_Math_Functions_1
+			name skin_LEGS_Math_Functions_1:1
 			initValue 1
 			hidden 0
 			enabled 1
@@ -674,9 +674,9 @@ actor $CURRENT
 					valueKey 1 1
 				endValueKeys
 			}
-		shaderNodeParm skin_HEAD_PhysicalSurface_4
+		shaderNodeParm skin_HEAD_PhysicalSurface_4:1
 			{
-			name skin_HEAD_PhysicalSurface_4
+			name skin_HEAD_PhysicalSurface_4:1
 			initValue 0.4
 			hidden 0
 			enabled 1
@@ -705,9 +705,9 @@ actor $CURRENT
 					valueKey 1 -0.1
 				endValueKeys
 			}
-		shaderNodeParm skin_HEAD_PhysicalSurface_5_R:1
+		shaderNodeParm skin_HEAD_PhysicalSurface_5_R
 			{
-			name skin_HEAD_PhysicalSurface_5_R:1
+			name skin_HEAD_PhysicalSurface_5_R
 			initValue 0.74902
 			hidden 0
 			enabled 1
@@ -728,7 +728,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -736,9 +736,9 @@ actor $CURRENT
 					valueKey 1 0.25098
 				endValueKeys
 			}
-		shaderNodeParm skin_HEAD_PhysicalSurface_5_G:1
+		shaderNodeParm skin_HEAD_PhysicalSurface_5_G
 			{
-			name skin_HEAD_PhysicalSurface_5_G:1
+			name skin_HEAD_PhysicalSurface_5_G
 			initValue 0.74902
 			hidden 0
 			enabled 1
@@ -759,7 +759,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -767,9 +767,9 @@ actor $CURRENT
 					valueKey 1 0.25098
 				endValueKeys
 			}
-		shaderNodeParm skin_HEAD_PhysicalSurface_5_B:1
+		shaderNodeParm skin_HEAD_PhysicalSurface_5_B
 			{
-			name skin_HEAD_PhysicalSurface_5_B:1
+			name skin_HEAD_PhysicalSurface_5_B
 			initValue 0.74902
 			hidden 0
 			enabled 1
@@ -790,7 +790,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -798,9 +798,9 @@ actor $CURRENT
 					valueKey 1 0.25098
 				endValueKeys
 			}
-		shaderNodeParm skin_HEAD_PhysicalSurface_9
+		shaderNodeParm skin_HEAD_PhysicalSurface_9:1
 			{
-			name skin_HEAD_PhysicalSurface_9
+			name skin_HEAD_PhysicalSurface_9:1
 			initValue 0.03
 			hidden 1
 			enabled 0
@@ -820,9 +820,9 @@ actor $CURRENT
 				}
 			interpStyleLocked 0
 			}
-		shaderNodeParm skin_HEAD_Image_Map_2_12
+		shaderNodeParm skin_HEAD_Image_Map_2_12:1
 			{
-			name skin_HEAD_Image_Map_2_12
+			name skin_HEAD_Image_Map_2_12:1
 			initValue 1
 			hidden 0
 			enabled 1
@@ -851,9 +851,9 @@ actor $CURRENT
 					valueKey 1 0.5
 				endValueKeys
 			}
-		shaderNodeParm skin_HEAD_hsv2_1:1
+		shaderNodeParm skin_HEAD_hsv2_1
 			{
-			name skin_HEAD_hsv2_1:1
+			name skin_HEAD_hsv2_1
 			initValue 0.99
 			hidden 0
 			enabled 1
@@ -874,7 +874,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -882,9 +882,9 @@ actor $CURRENT
 					valueKey 1 0.02
 				endValueKeys
 			}
-		shaderNodeParm skin_HEAD_hsv2_2:1
+		shaderNodeParm skin_HEAD_hsv2_2
 			{
-			name skin_HEAD_hsv2_2:1
+			name skin_HEAD_hsv2_2
 			initValue 0.8
 			hidden 0
 			enabled 1
@@ -905,7 +905,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -913,9 +913,9 @@ actor $CURRENT
 					valueKey 1 0.1
 				endValueKeys
 			}
-		shaderNodeParm skin_HEAD_hsv2_3
+		shaderNodeParm skin_HEAD_hsv2_3:1
 			{
-			name skin_HEAD_hsv2_3
+			name skin_HEAD_hsv2_3:1
 			initValue 1
 			hidden 0
 			enabled 1
@@ -944,9 +944,9 @@ actor $CURRENT
 					valueKey 1 1
 				endValueKeys
 			}
-		shaderNodeParm skin_HEAD_Math_Functions_1
+		shaderNodeParm skin_HEAD_Math_Functions_1:1
 			{
-			name skin_HEAD_Math_Functions_1
+			name skin_HEAD_Math_Functions_1:1
 			initValue 1
 			hidden 0
 			enabled 1
@@ -975,9 +975,9 @@ actor $CURRENT
 					valueKey 1 1
 				endValueKeys
 			}
-		shaderNodeParm lips_PhysicalSurface_4
+		shaderNodeParm lips_PhysicalSurface_4:1
 			{
-			name lips_PhysicalSurface_4
+			name lips_PhysicalSurface_4:1
 			initValue 0.4
 			hidden 0
 			enabled 1
@@ -1006,9 +1006,9 @@ actor $CURRENT
 					valueKey 1 -0.1
 				endValueKeys
 			}
-		shaderNodeParm lips_PhysicalSurface_5_R:1
+		shaderNodeParm lips_PhysicalSurface_5_R
 			{
-			name lips_PhysicalSurface_5_R:1
+			name lips_PhysicalSurface_5_R
 			initValue 0.74902
 			hidden 0
 			enabled 1
@@ -1029,7 +1029,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -1037,9 +1037,9 @@ actor $CURRENT
 					valueKey 1 0.25098
 				endValueKeys
 			}
-		shaderNodeParm lips_PhysicalSurface_5_G:1
+		shaderNodeParm lips_PhysicalSurface_5_G
 			{
-			name lips_PhysicalSurface_5_G:1
+			name lips_PhysicalSurface_5_G
 			initValue 0.74902
 			hidden 0
 			enabled 1
@@ -1060,7 +1060,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -1068,9 +1068,9 @@ actor $CURRENT
 					valueKey 1 0.25098
 				endValueKeys
 			}
-		shaderNodeParm lips_PhysicalSurface_5_B:1
+		shaderNodeParm lips_PhysicalSurface_5_B
 			{
-			name lips_PhysicalSurface_5_B:1
+			name lips_PhysicalSurface_5_B
 			initValue 0.74902
 			hidden 0
 			enabled 1
@@ -1091,7 +1091,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -1099,9 +1099,9 @@ actor $CURRENT
 					valueKey 1 0.25098
 				endValueKeys
 			}
-		shaderNodeParm lips_PhysicalSurface_9
+		shaderNodeParm lips_PhysicalSurface_9:1
 			{
-			name lips_PhysicalSurface_9
+			name lips_PhysicalSurface_9:1
 			initValue 0.03
 			hidden 1
 			enabled 0
@@ -1121,9 +1121,9 @@ actor $CURRENT
 				}
 			interpStyleLocked 0
 			}
-		shaderNodeParm lips_Image_Map_2_12
+		shaderNodeParm lips_Image_Map_2_12:1
 			{
-			name lips_Image_Map_2_12
+			name lips_Image_Map_2_12:1
 			initValue 1
 			hidden 0
 			enabled 1
@@ -1152,9 +1152,9 @@ actor $CURRENT
 					valueKey 1 0.5
 				endValueKeys
 			}
-		shaderNodeParm lips_hsv2_1:1
+		shaderNodeParm lips_hsv2_1
 			{
-			name lips_hsv2_1:1
+			name lips_hsv2_1
 			initValue 0.99
 			hidden 0
 			enabled 1
@@ -1175,7 +1175,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -1183,9 +1183,9 @@ actor $CURRENT
 					valueKey 1 0.02
 				endValueKeys
 			}
-		shaderNodeParm lips_hsv2_2:1
+		shaderNodeParm lips_hsv2_2
 			{
-			name lips_hsv2_2:1
+			name lips_hsv2_2
 			initValue 0.8
 			hidden 0
 			enabled 1
@@ -1206,7 +1206,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -1214,9 +1214,9 @@ actor $CURRENT
 					valueKey 1 0.1
 				endValueKeys
 			}
-		shaderNodeParm lips_hsv2_3
+		shaderNodeParm lips_hsv2_3:1
 			{
-			name lips_hsv2_3
+			name lips_hsv2_3:1
 			initValue 1
 			hidden 0
 			enabled 1
@@ -1245,9 +1245,9 @@ actor $CURRENT
 					valueKey 1 1
 				endValueKeys
 			}
-		shaderNodeParm lips_Math_Functions_1
+		shaderNodeParm lips_Math_Functions_1:1
 			{
-			name lips_Math_Functions_1
+			name lips_Math_Functions_1:1
 			initValue 1
 			hidden 0
 			enabled 1
@@ -1276,9 +1276,9 @@ actor $CURRENT
 					valueKey 1 1
 				endValueKeys
 			}
-		shaderNodeParm skin_ARMS_PhysicalSurface_4
+		shaderNodeParm skin_ARMS_PhysicalSurface_4:1
 			{
-			name skin_ARMS_PhysicalSurface_4
+			name skin_ARMS_PhysicalSurface_4:1
 			initValue 0.4
 			hidden 0
 			enabled 1
@@ -1307,9 +1307,9 @@ actor $CURRENT
 					valueKey 1 -0.1
 				endValueKeys
 			}
-		shaderNodeParm skin_ARMS_PhysicalSurface_5_R:1
+		shaderNodeParm skin_ARMS_PhysicalSurface_5_R
 			{
-			name skin_ARMS_PhysicalSurface_5_R:1
+			name skin_ARMS_PhysicalSurface_5_R
 			initValue 0.74902
 			hidden 0
 			enabled 1
@@ -1330,7 +1330,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -1338,9 +1338,9 @@ actor $CURRENT
 					valueKey 1 0.25098
 				endValueKeys
 			}
-		shaderNodeParm skin_ARMS_PhysicalSurface_5_G:1
+		shaderNodeParm skin_ARMS_PhysicalSurface_5_G
 			{
-			name skin_ARMS_PhysicalSurface_5_G:1
+			name skin_ARMS_PhysicalSurface_5_G
 			initValue 0.74902
 			hidden 0
 			enabled 1
@@ -1361,7 +1361,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -1369,9 +1369,9 @@ actor $CURRENT
 					valueKey 1 0.25098
 				endValueKeys
 			}
-		shaderNodeParm skin_ARMS_PhysicalSurface_5_B:1
+		shaderNodeParm skin_ARMS_PhysicalSurface_5_B
 			{
-			name skin_ARMS_PhysicalSurface_5_B:1
+			name skin_ARMS_PhysicalSurface_5_B
 			initValue 0.74902
 			hidden 0
 			enabled 1
@@ -1392,7 +1392,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -1400,9 +1400,9 @@ actor $CURRENT
 					valueKey 1 0.25098
 				endValueKeys
 			}
-		shaderNodeParm skin_ARMS_PhysicalSurface_9
+		shaderNodeParm skin_ARMS_PhysicalSurface_9:1
 			{
-			name skin_ARMS_PhysicalSurface_9
+			name skin_ARMS_PhysicalSurface_9:1
 			initValue 0.06
 			hidden 1
 			enabled 0
@@ -1422,9 +1422,9 @@ actor $CURRENT
 				}
 			interpStyleLocked 0
 			}
-		shaderNodeParm skin_ARMS_Image_Map_2_12
+		shaderNodeParm skin_ARMS_Image_Map_2_12:1
 			{
-			name skin_ARMS_Image_Map_2_12
+			name skin_ARMS_Image_Map_2_12:1
 			initValue 1
 			hidden 0
 			enabled 1
@@ -1453,9 +1453,9 @@ actor $CURRENT
 					valueKey 1 0.5
 				endValueKeys
 			}
-		shaderNodeParm skin_ARMS_hsv2_1:1
+		shaderNodeParm skin_ARMS_hsv2_1
 			{
-			name skin_ARMS_hsv2_1:1
+			name skin_ARMS_hsv2_1
 			initValue 0.99
 			hidden 0
 			enabled 1
@@ -1476,7 +1476,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -1484,9 +1484,9 @@ actor $CURRENT
 					valueKey 1 0.02
 				endValueKeys
 			}
-		shaderNodeParm skin_ARMS_hsv2_2:1
+		shaderNodeParm skin_ARMS_hsv2_2
 			{
-			name skin_ARMS_hsv2_2:1
+			name skin_ARMS_hsv2_2
 			initValue 0.8
 			hidden 0
 			enabled 1
@@ -1507,7 +1507,7 @@ actor $CURRENT
 			interpStyleLocked 0
 			valueOpKey
 				Figure 1
-				BODY
+				BODY:1
 				SkinTone
 				strength 1.000000
 				beginValueKeys
@@ -1515,9 +1515,9 @@ actor $CURRENT
 					valueKey 1 0.1
 				endValueKeys
 			}
-		shaderNodeParm skin_ARMS_hsv2_3
+		shaderNodeParm skin_ARMS_hsv2_3:1
 			{
-			name skin_ARMS_hsv2_3
+			name skin_ARMS_hsv2_3:1
 			initValue 1
 			hidden 0
 			enabled 1
@@ -1546,9 +1546,9 @@ actor $CURRENT
 					valueKey 1 1
 				endValueKeys
 			}
-		shaderNodeParm skin_ARMS_Math_Functions_1
+		shaderNodeParm skin_ARMS_Math_Functions_1:1
 			{
-			name skin_ARMS_Math_Functions_1
+			name skin_ARMS_Math_Functions_1:1
 			initValue 1
 			hidden 0
 			enabled 1
@@ -1799,7 +1799,7 @@ mtlCollection
 					{
 					name "Roughness"
 					value 0.4 0.001 1
-					parmR "skin_BODY_PhysicalSurface_4"
+					parmR "skin_BODY_PhysicalSurface_4:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -1809,9 +1809,9 @@ mtlCollection
 					{
 					name "Specular"
 					value 0.74902 0.74902 0.74902
-					parmR "skin_BODY_PhysicalSurface_5_R:1"
-					parmG "skin_BODY_PhysicalSurface_5_G:1"
-					parmB "skin_BODY_PhysicalSurface_5_B:1"
+					parmR "skin_BODY_PhysicalSurface_5_R"
+					parmG "skin_BODY_PhysicalSurface_5_G"
+					parmB "skin_BODY_PhysicalSurface_5_B"
 					node NO_NODE
 					file NO_MAP
 					}
@@ -1849,7 +1849,7 @@ mtlCollection
 					{
 					name "Bump"
 					value 0.06 -10 10
-					parmR "skin_BODY_PhysicalSurface_9"
+					parmR "skin_BODY_PhysicalSurface_9:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node "Image_Map_2"
@@ -2207,7 +2207,7 @@ mtlCollection
 					{
 					name "Texture_Strength"
 					value 1 0 1
-					parmR "skin_BODY_Image_Map_2_12"
+					parmR "skin_BODY_Image_Map_2_12:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -2245,7 +2245,7 @@ mtlCollection
 					{
 					name "Hue"
 					value 0.99 0 1
-					parmR "skin_BODY_hsv2_1:1"
+					parmR "skin_BODY_hsv2_1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -2255,7 +2255,7 @@ mtlCollection
 					{
 					name "Saturation"
 					value 1 0 1
-					parmR "skin_BODY_hsv2_2:1"
+					parmR "skin_BODY_hsv2_2"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -2265,7 +2265,7 @@ mtlCollection
 					{
 					name "Value"
 					value 1 0 1
-					parmR "skin_BODY_hsv2_3"
+					parmR "skin_BODY_hsv2_3:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -2292,7 +2292,7 @@ mtlCollection
 					{
 					name "Value_1"
 					value 1 0 100
-					parmR "skin_BODY_Math_Functions_1"
+					parmR "skin_BODY_Math_Functions_1:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -2317,9 +2317,9 @@ mtlCollection
 		{
 		KdColor 1 1 1 0.5 
 		KaColor 0 0 0 0.05 
-		KsColor 0.74902 0.74902 0.74902 0.05 
+		KsColor 0.498039 0.498039 0.498039 0.05 
 		TextureColor 1 1 1 1 
-		NsExponent 2.5 
+		NsExponent 2.35294 
 		tMin 0 
 		tMax 0 
 		tExpo 0.6 
@@ -2387,7 +2387,7 @@ mtlCollection
 					{
 					name "Roughness"
 					value 0.4 0.001 1
-					parmR "skin_LEGS_PhysicalSurface_4"
+					parmR "skin_LEGS_PhysicalSurface_4:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -2397,9 +2397,9 @@ mtlCollection
 					{
 					name "Specular"
 					value 0.74902 0.74902 0.74902
-					parmR "skin_LEGS_PhysicalSurface_5_R:1"
-					parmG "skin_LEGS_PhysicalSurface_5_G:1"
-					parmB "skin_LEGS_PhysicalSurface_5_B:1"
+					parmR "skin_LEGS_PhysicalSurface_5_R"
+					parmG "skin_LEGS_PhysicalSurface_5_G"
+					parmB "skin_LEGS_PhysicalSurface_5_B"
 					node NO_NODE
 					file NO_MAP
 					}
@@ -2437,7 +2437,7 @@ mtlCollection
 					{
 					name "Bump"
 					value 0.06 -10 10
-					parmR "skin_LEGS_PhysicalSurface_9"
+					parmR "skin_LEGS_PhysicalSurface_9:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node "Image_Map_2"
@@ -2795,7 +2795,7 @@ mtlCollection
 					{
 					name "Texture_Strength"
 					value 1 0 1
-					parmR "skin_LEGS_Image_Map_2_12"
+					parmR "skin_LEGS_Image_Map_2_12:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -2833,7 +2833,7 @@ mtlCollection
 					{
 					name "Hue"
 					value 0.985 0 1
-					parmR "skin_LEGS_hsv2_1:1"
+					parmR "skin_LEGS_hsv2_1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -2843,7 +2843,7 @@ mtlCollection
 					{
 					name "Saturation"
 					value 1 0 1
-					parmR "skin_LEGS_hsv2_2:1"
+					parmR "skin_LEGS_hsv2_2"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -2853,7 +2853,7 @@ mtlCollection
 					{
 					name "Value"
 					value 1 0 1
-					parmR "skin_LEGS_hsv2_3"
+					parmR "skin_LEGS_hsv2_3:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -2880,7 +2880,7 @@ mtlCollection
 					{
 					name "Value_1"
 					value 1 0 100
-					parmR "skin_LEGS_Math_Functions_1"
+					parmR "skin_LEGS_Math_Functions_1:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -2975,7 +2975,7 @@ mtlCollection
 					{
 					name "Roughness"
 					value 0.4 0.001 1
-					parmR "skin_HEAD_PhysicalSurface_4"
+					parmR "skin_HEAD_PhysicalSurface_4:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -2985,9 +2985,9 @@ mtlCollection
 					{
 					name "Specular"
 					value 0.74902 0.74902 0.74902
-					parmR "skin_HEAD_PhysicalSurface_5_R:1"
-					parmG "skin_HEAD_PhysicalSurface_5_G:1"
-					parmB "skin_HEAD_PhysicalSurface_5_B:1"
+					parmR "skin_HEAD_PhysicalSurface_5_R"
+					parmG "skin_HEAD_PhysicalSurface_5_G"
+					parmB "skin_HEAD_PhysicalSurface_5_B"
 					node NO_NODE
 					file NO_MAP
 					}
@@ -3025,7 +3025,7 @@ mtlCollection
 					{
 					name "Bump"
 					value 0.03 -10 10
-					parmR "skin_HEAD_PhysicalSurface_9"
+					parmR "skin_HEAD_PhysicalSurface_9:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node "Image_Map_2"
@@ -3260,7 +3260,7 @@ mtlCollection
 				nodeInput "Image_Source"
 					{
 					name "Image_Source"
-					value 2 2 2
+					value 0 0 0
 					parmR NO_PARM
 					parmG NO_PARM
 					parmB NO_PARM
@@ -3383,7 +3383,7 @@ mtlCollection
 					{
 					name "Texture_Strength"
 					value 1 0 1
-					parmR "skin_HEAD_Image_Map_2_12"
+					parmR "skin_HEAD_Image_Map_2_12:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -3421,7 +3421,7 @@ mtlCollection
 					{
 					name "Hue"
 					value 0.99 0 1
-					parmR "skin_HEAD_hsv2_1:1"
+					parmR "skin_HEAD_hsv2_1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -3431,7 +3431,7 @@ mtlCollection
 					{
 					name "Saturation"
 					value 1 0 1
-					parmR "skin_HEAD_hsv2_2:1"
+					parmR "skin_HEAD_hsv2_2"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -3441,7 +3441,7 @@ mtlCollection
 					{
 					name "Value"
 					value 1 0 1
-					parmR "skin_HEAD_hsv2_3"
+					parmR "skin_HEAD_hsv2_3:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -3468,7 +3468,7 @@ mtlCollection
 					{
 					name "Value_1"
 					value 1 0 100
-					parmR "skin_HEAD_Math_Functions_1"
+					parmR "skin_HEAD_Math_Functions_1:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -3503,7 +3503,7 @@ mtlCollection
 		ksIgnoreTexture 0 
 		reflectThruLights 1 
 		reflectThruKd 0 
-		textureMap ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPHead.jpg"
+		textureMap ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPHEAD_tattoo.jpg"
  				0 0 
 		bumpMap ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPHeadBUMP.jpg"
  				0 0 
@@ -3698,12 +3698,12 @@ mtlCollection
 				nodeInput "Image_Source"
 					{
 					name "Image_Source"
-					value 1 1 1
+					value 0 0 0
 					parmR NO_PARM
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
-					file ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPHead.jpg"
+					file ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPHEAD_tattoo.jpg"
 					}
 				nodeInput "Auto_Fit"
 					{
@@ -3848,7 +3848,7 @@ mtlCollection
 				nodeInput "Image_Source"
 					{
 					name "Image_Source"
-					value 2 2 2
+					value 0 0 0
 					parmR NO_PARM
 					parmG NO_PARM
 					parmB NO_PARM
@@ -4513,9 +4513,9 @@ mtlCollection
 		{
 		KdColor 1 1 1 1 
 		KaColor 0 0 0 0 
-		KsColor 0.74902 0.74902 0.74902 0.1 
+		KsColor 0.974902 0.974902 0.974902 0.1 
 		TextureColor 1 1 1 1 
-		NsExponent 2.5 
+		NsExponent 2.35294 
 		tMin 0 
 		tMax 0 
 		tExpo 0.6 
@@ -4583,7 +4583,7 @@ mtlCollection
 					{
 					name "Roughness"
 					value 0.4 0.001 1
-					parmR "lips_PhysicalSurface_4"
+					parmR "lips_PhysicalSurface_4:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -4593,9 +4593,9 @@ mtlCollection
 					{
 					name "Specular"
 					value 0.74902 0.74902 0.74902
-					parmR "lips_PhysicalSurface_5_R:1"
-					parmG "lips_PhysicalSurface_5_G:1"
-					parmB "lips_PhysicalSurface_5_B:1"
+					parmR "lips_PhysicalSurface_5_R"
+					parmG "lips_PhysicalSurface_5_G"
+					parmB "lips_PhysicalSurface_5_B"
 					node NO_NODE
 					file NO_MAP
 					}
@@ -4633,7 +4633,7 @@ mtlCollection
 					{
 					name "Bump"
 					value 0.03 -10 10
-					parmR "lips_PhysicalSurface_9"
+					parmR "lips_PhysicalSurface_9:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node "Image_Map_2"
@@ -4868,7 +4868,7 @@ mtlCollection
 				nodeInput "Image_Source"
 					{
 					name "Image_Source"
-					value 2 2 2
+					value 0 0 0
 					parmR NO_PARM
 					parmG NO_PARM
 					parmB NO_PARM
@@ -4991,7 +4991,7 @@ mtlCollection
 					{
 					name "Texture_Strength"
 					value 1 0 1
-					parmR "lips_Image_Map_2_12"
+					parmR "lips_Image_Map_2_12:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -5029,7 +5029,7 @@ mtlCollection
 					{
 					name "Hue"
 					value 0.99 0 1
-					parmR "lips_hsv2_1:1"
+					parmR "lips_hsv2_1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -5039,7 +5039,7 @@ mtlCollection
 					{
 					name "Saturation"
 					value 1 0 1
-					parmR "lips_hsv2_2:1"
+					parmR "lips_hsv2_2"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -5049,7 +5049,7 @@ mtlCollection
 					{
 					name "Value"
 					value 1 0 1
-					parmR "lips_hsv2_3"
+					parmR "lips_hsv2_3:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -5076,7 +5076,7 @@ mtlCollection
 					{
 					name "Value_1"
 					value 1 0 100
-					parmR "lips_Math_Functions_1"
+					parmR "lips_Math_Functions_1:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -10465,9 +10465,9 @@ mtlCollection
 		{
 		KdColor 1 1 1 0.5 
 		KaColor 0 0 0 0.05 
-		KsColor 0.74902 0.74902 0.74902 0.05 
+		KsColor 0.498039 0.498039 0.498039 0.05 
 		TextureColor 1 1 1 1 
-		NsExponent 2.5 
+		NsExponent 2.35294 
 		tMin 0 
 		tMax 0 
 		tExpo 0.6 
@@ -10535,7 +10535,7 @@ mtlCollection
 					{
 					name "Roughness"
 					value 0.4 0.001 1
-					parmR "skin_ARMS_PhysicalSurface_4"
+					parmR "skin_ARMS_PhysicalSurface_4:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -10545,9 +10545,9 @@ mtlCollection
 					{
 					name "Specular"
 					value 0.74902 0.74902 0.74902
-					parmR "skin_ARMS_PhysicalSurface_5_R:1"
-					parmG "skin_ARMS_PhysicalSurface_5_G:1"
-					parmB "skin_ARMS_PhysicalSurface_5_B:1"
+					parmR "skin_ARMS_PhysicalSurface_5_R"
+					parmG "skin_ARMS_PhysicalSurface_5_G"
+					parmB "skin_ARMS_PhysicalSurface_5_B"
 					node NO_NODE
 					file NO_MAP
 					}
@@ -10585,7 +10585,7 @@ mtlCollection
 					{
 					name "Bump"
 					value 0.06 -10 10
-					parmR "skin_ARMS_PhysicalSurface_9"
+					parmR "skin_ARMS_PhysicalSurface_9:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node "Image_Map_2"
@@ -10943,7 +10943,7 @@ mtlCollection
 					{
 					name "Texture_Strength"
 					value 1 0 1
-					parmR "skin_ARMS_Image_Map_2_12"
+					parmR "skin_ARMS_Image_Map_2_12:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -10981,7 +10981,7 @@ mtlCollection
 					{
 					name "Hue"
 					value 0.99 0 1
-					parmR "skin_ARMS_hsv2_1:1"
+					parmR "skin_ARMS_hsv2_1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -10991,7 +10991,7 @@ mtlCollection
 					{
 					name "Saturation"
 					value 1 0 1
-					parmR "skin_ARMS_hsv2_2:1"
+					parmR "skin_ARMS_hsv2_2"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -11001,7 +11001,7 @@ mtlCollection
 					{
 					name "Value"
 					value 1 0 1
-					parmR "skin_ARMS_hsv2_3"
+					parmR "skin_ARMS_hsv2_3:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -11028,7 +11028,7 @@ mtlCollection
 					{
 					name "Value_1"
 					value 1 0 100
-					parmR "skin_ARMS_Math_Functions_1"
+					parmR "skin_ARMS_Math_Functions_1:1"
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
@@ -11063,7 +11063,7 @@ mtlCollection
 		ksIgnoreTexture 0 
 		reflectThruLights 1 
 		reflectThruKd 0 
-		textureMap ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPArms.jpg"
+		textureMap ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPARMS_tattoo.jpg"
  				0 0 
 		bumpMap ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPArmsBUMP.jpg"
  				0 0 
@@ -11263,7 +11263,7 @@ mtlCollection
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
-					file ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPArms.jpg"
+					file ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPARMS_tattoo.jpg"
 					}
 				nodeInput "Auto_Fit"
 					{
@@ -11568,7 +11568,7 @@ mtlCollection
 		ksIgnoreTexture 0 
 		reflectThruLights 1 
 		reflectThruKd 0 
-		textureMap ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPArms.jpg"
+		textureMap ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPARMS_tattoo.jpg"
  				0 0 
 		bumpMap ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPArmsBUMP.jpg"
  				0 0 
@@ -11768,7 +11768,7 @@ mtlCollection
 					parmG NO_PARM
 					parmB NO_PARM
 					node NO_NODE
-					file ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPArms.jpg"
+					file ":Runtime:Textures:!SaintFox:ToniPolygon:ToniPARMS_tattoo.jpg"
 					}
 				nodeInput "Auto_Fit"
 					{
