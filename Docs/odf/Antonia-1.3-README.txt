@@ -35,8 +35,9 @@ file.
 
 IMPORTANT: The Toni Polygon package contains its own material settings
 in the Pose library under the folder "SF ToniPolygon". These were meant
-for older Poser versions and are most likely not what you want. Instead,
-use the settings provided in the Material library under odf/Antonia-1.3.
+for older Poser versions and are almost certainly not what you want,
+especially when using SuperFly. Instead, use the settings provided in
+the Materials library under odf/Antonia-1.3.
 
 
 === ABOUT THIS RELEASE (VERSION 1.3.0) ===
