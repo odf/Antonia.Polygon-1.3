@@ -10,13 +10,17 @@ development of the figure has been documented and discussed in the
 Poser forum at Renderosity (http://www.renderosity.com), and the
 project owes a lot to the continuing feedback and support of the
 Renderosity community. Still, Antonia is a pure hobby project and made
-entirely for fun of it, so do not expect a polished commerical product.
+entirely for the fun of it, so do not expect a polished commerical
+product.
 
 The figure is provided free of charge and can be redistributed freely
 as part of both commercial and non-commercial projects, see the license
-statement below. Please be aware that this is not true for the enclosed
-Toni Polygon texture by SaintFox and Digitial-Lion, which may *not* be
-redistributed as part of other products or freebies.
+statement below.
+
+Please be aware that this is not true for the Toni Polygon texture by
+SaintFox and Digitial-Lion that is included in some downloads for
+Antonia Polygon 1.3. This texture may *not* be redistributed as part
+of other products or freebies.
 
 For further information and future additions, visit
 http://sites.google.com/site/antoniapolygon or
@@ -27,11 +31,13 @@ https://github.com/odf/Antonia.Polygon-1.3.
 
 Toni Polygon is a photo-base texture made for Antonia by SaintFox and
 Digital-Lion. Antonia 1.3 comes with default materials that use this
-texture, so for the materials to work, you need to install it from the
-enclosed zip-file under the "Extras" folder. Toni Polygon is not part
-of the Antonia release and does not fall under the license summarized
-below. For more information about Toni Polygon, see its separate readme
-file.
+texture, so for the materials to work as intended, you need to install
+it separately. For convenience, some downloads include the texture as
+a ZIP file in the "Extra" folder.
+
+Toni Polygon is not part of the Antonia release and does not fall under
+the license summarized below. For more information about Toni Polygon,
+see its separate readme file.
 
 IMPORTANT: The Toni Polygon package contains its own material settings
 in the Pose library under the folder "SF ToniPolygon". These were meant
@@ -53,9 +59,12 @@ Antonia 1.3 has some new and some improved expression morphs and new
 hybrid FireFly/SuperFly materials based on the Toni Polygon texture
 by SaintFox and Digital-Lion (see ToniPolygonReadMe.txt).
 
-Most of the content available for previous versions of Antonia will
-not work without upgrading. Please be on the lookout for items made
-specifically for Antonia 1.3.
+Not all content for previous versions of Antonia will work without
+modifications. Textures, poses, hair fits and dynamic clothing should
+generally be okay, but morphs will need to be transferred and adapted
+to the new geometry. In many cases, Posers "Copy Morphs From..."
+features work quite nicely. Conforming clothing, especially tight
+fitting items, will probably not work correctly without adjustments.
 
 The development of the figure is ongoing, and Antonia 1.3 is meant as
 a stepping stone for things to come. Future versions may well be
