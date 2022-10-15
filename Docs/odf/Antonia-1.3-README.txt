@@ -57,12 +57,12 @@ and the settings for the chest joint have also been changed.
 
 Antonia 1.3 has some new and some improved expression morphs and new
 hybrid FireFly/SuperFly materials based on the Toni Polygon texture
-by SaintFox and Digital-Lion (see ToniPolygonReadMe.txt).
+by SaintFox and Digital-Lion.
 
 Not all content for previous versions of Antonia will work without
 modifications. Textures, poses, hair fits and dynamic clothing should
 generally be okay, but morphs will need to be transferred and adapted
-to the new geometry. In many cases, Posers "Copy Morphs From..."
+to the new geometry. In many cases, Poser's "Copy Morphs From..."
 features work quite nicely. Conforming clothing, especially tight
 fitting items, will probably not work correctly without adjustments.
 
